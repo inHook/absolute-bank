@@ -1,5 +1,5 @@
 import React from 'react';
-import {TicketsListConnected} from "./containers/ticketList";
+import {TicketsListConnected} from "./containers/ticketList/ticketList";
 
 import './App.scss';
 
