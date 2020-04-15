@@ -1,0 +1,20 @@
+.input-ui {
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  border-radius: 25px;
+
+  &__wrapper {
+    padding: 15px;
+  }
+
+  &__inner {
+    background: white;
+    border-radius: 20px;
+  }
+
+  &__placeholder-image {
+    padding: 0 10px;
+  }
+}
