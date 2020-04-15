@@ -16,7 +16,7 @@ const TicketsList = ({tickets, putTickets, setQuery, queryTicket, queryClient}) 
         if (data?.length) {
             putTickets(data);
         }
-    }, []);
+    }, [putTickets]);
 
     const handleChange = (e) => {
         const {name, value} = e.target;
